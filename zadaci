@@ -1,0 +1,52 @@
+PRODAVNICA ONLINE SHOP
+
+- korisnici 
+    - osnovni podaci
+	-ID
+	-username
+	-fullname
+	-email
+	-password
+	-salt
+	-
+- tip korisnika
+    - administrator
+		- moze da brise korisnike 
+		- moze da unapredjuje korisnike u admina 
+	    - moze da brise oglase sve
+		- moze da banuje usera
+		- moze da brise recenzije (ocene)
+		- itd.
+    - user
+        - može da postavlja oglase
+		- moze da cita oglase 
+	    - moze da updejtuje svoje oglase
+	    - moze da brise svoje oglase
+        - može da dodaje komentare
+        - ocenjuje druge korisnike
+		- itd.
+    - guest
+        - pregledava i pretražuje oglase
+		- vidi ocene prosecne prodavaca 
+		- vidi ceo oglas 
+        
+- oglasi
+    - naslov
+    - opis
+    - id_korisnika
+    - kategorija
+    - komentari
+    - status
+    - datumi važenja (vazenje nekog popusta
+	- datum postavljanja
+    - ...
+    
+API
+    - CRUD operacije za korisnike i oglase
+    - dodavanje komentara
+    - ocena korisnika
+    - ...
+Security
+    - samo admin može da briše korisnike
+    - korisnik uređuje svoj nalog
+    - ..
